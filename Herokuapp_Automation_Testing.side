@@ -1,0 +1,552 @@
+{
+  "id": "ca0dfdbe-38bd-42d4-aaae-ed0ca60ad2f5",
+  "version": "2.0",
+  "name": "Herokuapp_Automation_Testing",
+  "url": "https://the-internet.herokuapp.com/dropdown?utm_source=chatgpt.com",
+  "tests": [{
+    "id": "c0c6566a-08a9-40f1-95ce-b07e5baefb80",
+    "name": "TC01_A/B Test Control",
+    "commands": [{
+      "id": "7da6b56c-39ea-486a-8892-954d66508468",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4407227a-8d7d-4a07-9fb4-918fe25cdd13",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x693",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14e52e51-eea9-4653-a4cc-41e926a534cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=A/B Testing",
+      "targets": [
+        ["linkText=A/B Testing", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'A/B Testing')]", "xpath:link"],
+        ["xpath=//div[@id='content']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/abtest')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'A/B Testing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3303a05c-b603-422b-8f62-a40490d7cd9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=page-footer",
+      "targets": [
+        ["id=page-footer", "id"],
+        ["css=#page-footer", "css:finder"],
+        ["xpath=//div[@id='page-footer']", "xpath:attributes"],
+        ["xpath=//div[3]", "xpath:position"],
+        ["xpath=//div[contains(.,'Powered by Elemental Selenium and Sauce Labs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "377cdeef-009b-4723-aef3-1b9452efde9d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f2a2ff0-0c87-4566-b6eb-76c548cea6fc",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78357652-0e9f-4e87-9401-2175cd5aa0a4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=A/B Testing",
+      "targets": [
+        ["linkText=A/B Testing", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'A/B Testing')]", "xpath:link"],
+        ["xpath=//div[@id='content']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/abtest')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'A/B Testing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdf9af60-ea49-4b75-b7d8-bf6297862e7d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b1d0635a-ec48-4208-b5b0-13bab4bdad34",
+    "name": "TC02_Valid_Login.",
+    "commands": [{
+      "id": "2f7a6d0c-0539-4618-9906-eb39e9070c1a",
+      "comment": "",
+      "command": "open",
+      "target": "https://the-internet.herokuapp.com/login?utm_source=chatgpt.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4db1ade-f972-4680-87d3-8c3cb51dc0e2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x693",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c18d81a6-089f-4e88-8844-cc014559514d",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca36332c-99dd-46d5-89dd-0448510fce59",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25880ebe-6e4b-42df-9d28-4e1daf2e419d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05c68e36-ad58-4967-92e1-e70780f101c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "tomsmith"
+    }, {
+      "id": "e079e2cd-4a92-4e99-bd52-e5c71a08b906",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cc543b7-03ef-48a8-b7e4-41db27820b21",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c38b825a-1962-4815-b440-16e296930cef",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84e32608-cce4-40de-90fc-c5ef402989eb",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "SuperSecretPassword!"
+    }, {
+      "id": "c3f28e0b-8e8c-440e-a675-d1f0da87067b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa",
+      "targets": [
+        ["css=.fa", "css:finder"],
+        ["xpath=//form[@id='login']/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"],
+        ["xpath=//i[contains(.,' Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f5fd372-4bd4-48f8-8666-cf680eb33269",
+      "comment": "",
+      "command": "click",
+      "target": "css=.example",
+      "targets": [
+        ["css=.example", "css:finder"],
+        ["xpath=//div[@id='content']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ee2c4daf-88bc-4949-9676-ab1fcdbc0106",
+    "name": "TC03_Invalid_Login",
+    "commands": [{
+      "id": "bc1dd4da-b8eb-4a05-9928-97f6fa6479ab",
+      "comment": "",
+      "command": "open",
+      "target": "https://the-internet.herokuapp.com/login?utm_source=chatgpt.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eac267d9-35fa-4d82-8a82-5d3eed0f80e2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x693",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62c173c7-49e1-4309-9575-a9e71a197cde",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd3bea8f-ed9c-40ca-856e-048b329f3590",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4f521ce-c3af-4b80-989e-39543fc72deb",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19aa39b1-aedc-4ff3-916c-a90f40dc65f3",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "wronguser"
+    }, {
+      "id": "d769cd9a-bdda-4385-9b75-1a01f8d59bae",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51d60b1a-4715-4729-b2a6-86260552d9ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f900df9-098f-46b8-84d5-3b9f246388ed",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6be712f2-63c8-4b91-81a5-12363c826636",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7daf192-3c3f-4f83-ba2d-16cc3b58a08f",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "wrongpassword"
+    }, {
+      "id": "13ee3d1a-d3f1-4a2d-b5db-46e6bc6dc517",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa",
+      "targets": [
+        ["css=.fa", "css:finder"],
+        ["xpath=//form[@id='login']/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"],
+        ["xpath=//i[contains(.,' Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ecf0410-bcd8-4234-a7c3-5623cd07f477",
+      "comment": "",
+      "command": "click",
+      "target": "css=.subheader",
+      "targets": [
+        ["css=.subheader", "css:finder"],
+        ["xpath=//div[@id='content']/div/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is wrong you should see error messages.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7dfbabac-f962-48f5-83ca-9d76ba64f0e4",
+    "name": "TC04_Checkbox",
+    "commands": [{
+      "id": "1104f11d-8809-46ed-80c0-6f8e15f69ae0",
+      "comment": "",
+      "command": "open",
+      "target": "https://the-internet.herokuapp.com/checkboxes?utm_source=chatgpt.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f530df17-2b14-4132-9c06-04b96888126b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x693",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef776e28-02bf-410b-b7c2-6b9ead54e325",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(1)",
+      "targets": [
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//form[@id='checkboxes']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8d26fec-5655-47a0-9b08-66030192f4c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='checkboxes']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dc14f917-208c-4255-85d3-35f2a95a93e0",
+    "name": "TC05_Dropdown",
+    "commands": [{
+      "id": "77de2a20-73a4-4001-946c-0beda7714576",
+      "comment": "",
+      "command": "open",
+      "target": "https://the-internet.herokuapp.com/dropdown?utm_source=chatgpt.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc27771a-3d96-4fad-9cf5-21e4ac214761",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x693",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f4ac001-0f22-4b5f-abce-1c4d10799ba9",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=dropdown",
+      "targets": [
+        ["id=dropdown", "id"],
+        ["css=#dropdown", "css:finder"],
+        ["xpath=//select[@id='dropdown']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-15.800003051757812,-173.28334045410156"
+    }, {
+      "id": "b8e9b91d-b645-4092-9c17-006ad91298c2",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=dropdown",
+      "targets": [
+        ["id=dropdown", "id"],
+        ["css=#dropdown", "css:finder"],
+        ["xpath=//select[@id='dropdown']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-15.800003051757812,-173.28334045410156"
+    }, {
+      "id": "11de03cc-2dfa-4fa0-8bd0-8919afb4c505",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=dropdown",
+      "targets": [
+        ["id=dropdown", "id"],
+        ["css=#dropdown", "css:finder"],
+        ["xpath=//select[@id='dropdown']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-15.800003051757812,-173.28334045410156"
+    }, {
+      "id": "e3269c2c-50e6-49b4-a3f7-64d7aba48c78",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdown",
+      "targets": [
+        ["id=dropdown", "id"],
+        ["css=#dropdown", "css:finder"],
+        ["xpath=//select[@id='dropdown']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a74bb6f-3942-40d5-a7b9-f5a07637dd73",
+      "comment": "",
+      "command": "select",
+      "target": "id=dropdown",
+      "targets": [],
+      "value": "label=Option 1"
+    }, {
+      "id": "d81c9293-b5d1-4ff6-9553-85d9e9174c6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(2)",
+      "targets": [
+        ["css=option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='1']", "xpath:attributes"],
+        ["xpath=//select[@id='dropdown']/option[2]", "xpath:idRelative"],
+        ["xpath=//option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Option 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c1fb5ca0-bc7b-471e-a31a-e41ea21743f3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c0c6566a-08a9-40f1-95ce-b07e5baefb80", "b1d0635a-ec48-4208-b5b0-13bab4bdad34", "ee2c4daf-88bc-4949-9676-ab1fcdbc0106", "7dfbabac-f962-48f5-83ca-9d76ba64f0e4", "dc14f917-208c-4255-85d3-35f2a95a93e0"]
+  }],
+  "urls": ["https://the-internet.herokuapp.com/", "https://the-internet.herokuapp.com/checkboxes?utm_source=chatgpt.com", "https://the-internet.herokuapp.com/dropdown?utm_source=chatgpt.com"],
+  "plugins": []
+}
